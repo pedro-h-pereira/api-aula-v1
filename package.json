@@ -1,17 +1,10 @@
 {
-  "name": "tasiii",
+  "name": "api-gerenciamento-pedidos",
   "version": "1.0.0",
-  "description": "",
+  "description": "API REST em camadas para gerenciamento de pedidos",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev":"nodemon index.js"
-  },
-  "keywords": [],
-  "author": "",
+  "scripts": { "start": "node index.js", "dev": "nodemon index.js", "test": "node --test" },
   "license": "ISC",
-  "dependencies": {
-    "express": "^5.2.1",
-    "nodemon": "^3.1.14"
-  }
+  "dependencies": { "express": "^5.2.1" },
+  "devDependencies": { "nodemon": "^3.1.14" }
 }
